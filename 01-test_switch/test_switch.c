@@ -29,7 +29,7 @@ int main(void) {
     else
     {
       P1OUT ^= BIT0;
-      for (i = 0; i < 0x6000; i++);
+      for (i = 0; i < 0x6000; i++);  // To wait for switch to be released
     }
   }
 }
